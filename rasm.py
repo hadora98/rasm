@@ -23,10 +23,10 @@ class Rasm:
     def __init__(self, mode = 'calligraphy'):
 
         if mode == 'calligraphy':
-            url = 'https://drive.google.com/u/0/uc?id=1OxetrEJn2MUHSwW7SuS1F_GWUrB_9W-c&export=download'
+            url = 'https://drive.google.com/u/0/uc?id=1OxetrEJn2MUHSwW7SuS1F_GWUrB_9W-c'
 
         else:
-            url = 'https://drive.google.com/u/0/uc?id=1POjspVtAOxISJPhKvVHYGlgoigdmrIu8&export=download'
+            url = 'https://drive.google.com/u/0/uc?id=1POjspVtAOxISJPhKvVHYGlgoigdmrIu8'
 
         output = 'model.pkl'
         print('Downloading networks from "%s"...' %url)
